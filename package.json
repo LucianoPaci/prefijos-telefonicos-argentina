@@ -12,5 +12,13 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/LucianoPaci/prefijos-telefonicos-argentina"
-  }
+  },
+  "keywords": [
+    "argentina",
+    "phone",
+    "prefix",
+    "prefixes",
+    "prefijos",
+    "telefono"
+  ]
 }
