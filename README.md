@@ -12,7 +12,7 @@ npm i prefijos-telefonicos-argentina
 
 ## Uso
 
-###_groupBy()_
+### _groupBy()_
 
 ```javascript
 // Obtener todos los prefijos de una provincia, ej: Buenos Aires
@@ -50,7 +50,7 @@ const prefijosBuenosAires = phoneNumbersData.utils.groupBy(
 }
 ```
 
-###_findOne()_
+### _findOne()_
 
 ```javascript
 // Obtener el dato de alguna localidad con el prefijo 291
@@ -63,7 +63,7 @@ const data = phoneNumbersData.findOne("codigo", "291");
 { provincia: 'Buenos Aires', localidad: 'Bahia Blanca', codigo: '291' }
 ```
 
-###_filter()_
+### _filter()_
 
 ```javascript
 // Obtener los datos de las localidades con el prefijo 291
