@@ -1,5 +1,5 @@
 {
-  "name": "@lucianopaci/prefijos-telefonicos-argentina",
+  "name": "prefijos-telefonicos-argentina",
   "version": "1.0.0",
   "description": "Listado de prefijos telefónicos para Argentina",
   "main": "index.js",
