@@ -1,0 +1,14 @@
+{
+  "name": "phonenumber-prefixes-list",
+  "version": "1.0.0",
+  "description": "List of phone numbers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Luciano Paci",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.20"
+  }
+}
