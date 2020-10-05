@@ -1,4 +1,6 @@
-# Listado de prefijos telefónicos para Argentina
+# prefijos-telefonicos-argentina
+
+### Listado de prefijos telefónicos de Argentina
 
 ---
 
@@ -10,7 +12,7 @@ npm i prefijos-telefonicos-argentina
 
 ## Uso
 
-- _groupBy_
+###_groupBy()_
 
 ```javascript
 // Obtener todos los prefijos de una provincia, ej: Buenos Aires
@@ -23,7 +25,7 @@ const prefijosBuenosAires = phoneNumbersData.utils.groupBy(
 );
 ```
 
-##### Resultado
+**Resultado**
 
 ```javascript
 {
@@ -48,27 +50,27 @@ const prefijosBuenosAires = phoneNumbersData.utils.groupBy(
 }
 ```
 
-- findOne
+###_findOne()_
 
 ```javascript
 // Obtener el dato de alguna localidad con el prefijo 291
 const data = phoneNumbersData.findOne("codigo", "291");
 ```
 
-##### Resultado
+**Resultado**
 
 ```javascript
 { provincia: 'Buenos Aires', localidad: 'Bahia Blanca', codigo: '291' }
 ```
 
-- filter
+###_filter()_
 
 ```javascript
 // Obtener los datos de las localidades con el prefijo 291
 const data = phoneNumbersData.filter("codigo", "291");
 ```
 
-##### Resultado
+**Resultado**
 
 ```javascript
 [
