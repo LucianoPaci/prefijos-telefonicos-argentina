@@ -8,7 +8,9 @@
   },
   "author": "Luciano Paci",
   "license": "ISC",
-  "dependencies": {
-    "lodash": "^4.17.20"
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LucianoPaci/prefijos-telefonicos-argentina"
   }
 }
