@@ -1,6 +1,6 @@
 {
   "name": "prefijos-telefonicos-argentina",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Listado de prefijos telefónicos para Argentina",
   "main": "index.js",
   "scripts": {
